@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <body>
+        <form>
+            <fieldset>
+                <h1>Personal Details</h1>
+                <label>First Name :</label>
+                <input type="text" name="details"><br><br>
+                <label>Last Name :</label>
+                <input type="text" name="details"><br><br>
+                <label>Email</label>
+                <input type="text" name="details"><br><br>
+                <label>Gender :</label>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female<br><br>
+                <label>City :</label>
+                <select>
+                    <option>Amman</option>
+                    <option>Zarqa</option><br><br>
+                </select><br><br>
+                <input type="submit" value="Sign up">
+            </fieldset>
+        </form>
+    </body>
+</head>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <body>
+        <table border="1" width="400">
+            <h1>Tabel Num.2</h1>
+            <tr>
+                <td rowspan="2">row 1-2 , colom 1</td>
+                <td>row 1 , colom 2</td>
+                <td>row 1 , colom 3 </td>
+                <td>rpw 1 , colom 4</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2">row 2-3 , colom 2-3</td>
+                <td>row 2 , colom 4</td>
+            </tr>
+            <tr>
+                <td>row 3 , colom 1</td>
+                <td>row3 , colom 4</td>
+            </tr>
+            <tr>
+                <td>row 4 , colom 1</td>
+                <td>row 4 , colom 2</td>
+                <td colspan="2">row 4 , colom 3-4</td>
+            </tr>
+        </table>
+    </body>
+</head>
+</html>
